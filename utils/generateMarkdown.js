@@ -28,7 +28,7 @@ function generateMarkdown(data, license, user, email) {
   
   # Questions
 
-  For any questions contact ${api} at ${api}.
+  For any questions contact ${user} at ${email}.
   `;
 }
 
