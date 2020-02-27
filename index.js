@@ -10,11 +10,14 @@ function writeToFile(fileName, data) {}
 
 function init() {
   inquirer.prompt(questions).then(function(information) {
-    // api.getUser(information.username);
-    console.log(makeLicense(information));
+    console.log(api.getUser(information.username));
     fs.writeFile(
-      information.repo + "_README.md",
-      markdown(information),
+      "README.md",
+      markdown(
+        information,
+        makeLicense(information),
+        api.getUser(information.username)
+      ),
       function(err) {
         if (err) return err;
       }
