@@ -1,4 +1,4 @@
-function generateMarkdown(data, license, user, email) {
+function generateMarkdown(data, license, image, user, email) {
   return `# ${data.repo}
   ${license}
   # Description
@@ -27,6 +27,7 @@ function generateMarkdown(data, license, user, email) {
         ${data.test}
   
   # Questions
+  ![Avatar](${image} "User Avatar")
 
   For any questions contact ${user} at ${email}.
   `;

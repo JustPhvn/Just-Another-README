@@ -1,7 +1,7 @@
-# 
-  [![APACHE 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0.txt)
+# Just-Another-README
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
   # Description
-  
+  README generator
   # Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,20 +12,21 @@
   # Installation
   To install dependencies run:
   
-        
+        npm install
   
   # Usage
-  APACHE 2.0.
+  MIT.
   # License
-  This project is licensed under APACHE 2.0
+  This project is licensed under MIT
   # Contributing
-  
+  Please do not
   # Tests
   To run tests:
   
-        
+        npm test
   
   # Questions
+  ![Avatar](https://avatars2.githubusercontent.com/u/59938184?v=4 "User Avatar")
 
   For any questions contact https://github.com/JustPhvn at null.
   
